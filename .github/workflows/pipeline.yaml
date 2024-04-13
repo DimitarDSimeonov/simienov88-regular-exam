@@ -38,7 +38,7 @@ jobs:
         node-version: 18.x
         cache: 'npm'
     - name: Install NPM dependencies
-      run: npm install
+      run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install 
     - name: Start the application
