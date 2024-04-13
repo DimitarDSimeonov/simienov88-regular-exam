@@ -27,7 +27,7 @@ jobs:
       run: echo "simienov88"
 
   run-ui-tests:
-    needs: build_test
+    # needs: build_test
     runs-on: ubuntu-latest
 
     steps:
